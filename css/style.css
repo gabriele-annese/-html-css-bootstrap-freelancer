@@ -26,6 +26,29 @@
 .bg-hero{
     background-color: #1abc9c;
 }
+
+.button {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: bolder;
+    padding: 10px 15px;
+}
+
+.button2{
+    border: 1px solid #1abc9c ;
+    border-radius: 10px;
+    background-color: #1abc9c;
+    color: #fff;
+    font-weight: bolder;
+    padding: 10px 15px;
+}
+
+.color-g {
+    color: #20ae95;
+}
+
 /* DA RIMUOVERE */
 .h-50px{
     height: 50px;
@@ -37,7 +60,7 @@ header .list-nav ul{
 }
 header .list-nav li{
     padding: 10px;
-   }
+}
 /* main */
 
 /* footer */
