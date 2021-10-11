@@ -3,6 +3,12 @@
     border: 1px solid black;
     background-color: rgba(0, 0, 0,.2);
 }
+.box-img{
+    width: 100%;
+    height: 400px;
+    background: yellow;
+    border-radius: 20px;
+}
 
 /* utility */
 .bg-header{
