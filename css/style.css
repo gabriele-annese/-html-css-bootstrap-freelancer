@@ -32,7 +32,12 @@
 }
 
 /* hedaer */
-
+header .list-nav ul{
+ list-style-type: none;
+}
+header .list-nav li{
+    padding: 10px;
+   }
 /* main */
 
 /* footer */
