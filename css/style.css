@@ -1,0 +1,23 @@
+/* debug */
+.box {
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0,.2);
+}
+
+/* utility */
+.bg-header{
+    background: #2c3e50;;
+}
+
+.color-w{
+    color: #fff;
+}
+
+.bg-hero{
+    background-color: #1abc9c;
+}
+
+/* DA RIMUOVERE */
+.h-50px{
+    height: 50px;
+}
