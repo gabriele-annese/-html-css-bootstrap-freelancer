@@ -3,11 +3,11 @@
     border: 1px solid black;
     background-color: rgba(0, 0, 0,.2);
 }
-.box-img{
-    width: 100%;
-    height: 400px;
-    background: yellow;
-    border-radius: 20px;
+
+/* general */
+
+body {
+    padding-top: 100px;
 }
 
 /* utility */
@@ -49,6 +49,16 @@
     color: #20ae95;
 }
 
+.box-avatar {
+    width: 100%;
+    height: 200px;
+}
+
+.box-img{
+    width: 100%;
+    height: 400px;
+}
+
 /* DA RIMUOVERE */
 .h-50px{
     height: 50px;
@@ -58,10 +68,35 @@
 header .list-nav ul{
  list-style-type: none;
 }
+
 header .list-nav li{
     padding: 10px;
 }
+
+.navbar-dark .navbar-nav a.site-nav-link{
+    color: #fff;
+}
+
+header .navbar-dark .color-btn {
+    color: #fff;
+}
+
 /* main */
+
+.box-avatar img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.box-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
 
 /* footer */
 .footer-top{
