@@ -59,9 +59,15 @@ body {
     height: 400px;
 }
 
-/* DA RIMUOVERE */
-.h-50px{
-    height: 50px;
+/* button */
+.site-btn {
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+.site-btn-primary {
+    color: #fff;
+    background: #1abc9c;
 }
 
 /* hedaer */
@@ -81,7 +87,7 @@ header .navbar-dark .color-btn {
     color: #fff;
 }
 
-/* main */
+/* MAIN */
 
 .box-avatar img{
     object-fit: contain;
@@ -96,7 +102,40 @@ header .navbar-dark .color-btn {
     border-radius: 20px;
 }
 
+/* label-main */
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="phone"],
+.registration-form textarea{
+    border: 0;
+    font-size: 18px;
+    border-bottom: 2px solid grey; 
+    border-radius: 0; 
+}
 
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="phone"] {
+    height: 50px;
+    padding: 0;
+}
+
+.registration-form textarea{
+    height: 100px;
+    padding: 1rem 0;
+}
+
+.registration-form input[type="text"]:focus,
+.registration-form input[type="email"]:focus,
+.registration-form input[type="phone"]:focus,
+.registration-form textarea:focus{
+    box-shadow: none;
+    border-color:#1abc9c ;
+}
+
+.registration-form ::placeholder{
+    color: #1abc9c;
+}
 
 /* footer */
 .footer-top{
